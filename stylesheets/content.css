@@ -1,0 +1,30 @@
+.box{
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+}
+.nope{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: inline-block;
+}
+.hide{
+  width: 100px;
+  height: 100px;
+  background-color: #CD6D6D;
+  display:block;
+}
+.pink{
+    background-color: pink;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.black{
+    background-color: black;
+}

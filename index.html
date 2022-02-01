@@ -1,0 +1,43 @@
+<!DOCTYPE html!>
+<html lang="ru" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta property="og:type" content="article">
+   <meta property="og:url" content="{ссылка}">
+   <meta property="og:title" content="название">
+   <meta property="og:description" content="текст">
+   <meta property="og:image" content="{картинка}">
+  <script src="javascripts/jquery-3.6.0.js" charset="utf-8"></script>
+  <script src="javascripts/js.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="stylesheets/content.css">
+  </head>
+    <body>
+<script>
+$(document).ready(function(){
+  $(".box").click(function(){
+    $(this).toggleClass("black");
+    });
+  });
+  $(document).ready(function(){
+  $(".nope").on('click', function(){
+    $(this).animate({
+    "width": "200px",
+  }, 4000);
+  });
+});
+  $(document).ready(function(){
+  $(".hide").on('click', function(){
+    $(this).hide();
+  });
+});
+  </script>
+  <div class="box pink"></div>
+  <div class="box green"></div>
+  <div class="box blue"></div>
+  <div class="nope"></div>
+  <div class="hide"></div>
+  <div class="hide"></div>
+      <p id="demo"></p>
+    </body>
+  </html>
